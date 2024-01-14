@@ -48,7 +48,7 @@ export default function Signup() {
               Blog
           </Link>
           <p className='text-sm mt-5'>
-            This blog holds detailed information about my projects and how I developed them. You can sign up with your email and password or with your Google account.
+            This blog holds detailed information about my projects and how I developed them. For easier contact, you can sign up with your email and password or with your Google account.
           </p>
         </div>
         {/* right */}
@@ -77,7 +77,7 @@ export default function Signup() {
               <Label value='Password' />
               <TextInput
                 type='password'
-                placeholder='Password'
+                placeholder='********'
                 id = 'password'
                 onChange={handleChange}
               />
